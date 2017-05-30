@@ -1,0 +1,44 @@
+h1, h2 {
+
+color:#191970 ;
+}
+p {
+color: #4682B4 ;
+}
+h1 {
+text-align: center;
+}
+body {
+background: #F0F8FF ;
+
+}
+#main {
+ background: rgba(102, 102, 102, 0.5);
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #okno {
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #B0C4DE;
+        border-radius: 10px;
+        color: #191970;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+				background: #fff;
+      }
+      #main:target {display: block;}
+      
+       
+			
+			
